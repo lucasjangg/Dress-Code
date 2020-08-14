@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+a {
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.title {
+    display: flex;
+    font-family: 'Cantarell', sans-serif;
+    font-weight: lighter;
+    justify-content: center;
+    color: black;
+    font-size: x-large;
+    width: 100%;
+}
+.main-nav {
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+.main-nav ul {
+    margin: 20px 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.main-nav a {
+    padding: 1em;
+    font-size: small;
+    color: rgb(77, 77, 77);
+}
+.main-nav a:hover {
+    color: rgba(77, 77, 77, 0.5);
+}
+.main-nav li {
+    padding: 0 3%;
+    display: flex;
+}
+.inicio {
+    border-bottom: 1px solid rgb(30, 30, 30);
+    border-top: 1px solid rgb(30, 30, 30);
+}
+.inicio:hover {
+    border-color: rgba(77, 77, 77, 0.5);
+}
+.logo-img {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    transition-property: opacity;
+    transition-duration: 1s;
+}
+.logo-img:hover {
+    opacity: 0.6;
+}
+.content-section {
+    text-align: center;
+    font-family: 'Cantarell', sans-serif;
+    font-weight: 500;
+}
+.shop-items{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    margin: 50px;
+}
+.shop-item-img {
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.content-section a {
+    color: rgb(77, 77, 77);
+    font-size: 15px;
+}
+.content-section a:hover {
+    text-decoration: underline black;
+}
+.content-section img:hover {
+    opacity: .6;
+    transition: .5s ease;
+}
+.footer {
+    background-color: rgb(173, 173, 173);
+    font-size: 15px;
+    color: rgb(31, 31, 31);
+    margin: 20px 0;
+}
+.footer img:hover {
+    opacity: .6;
+    transition: .5s ease;
+}
+.footer-container {
+    display: flexbox;
+    text-align: center;
+    padding: 0;
+}
+.footer-container li {
+    display: inline-flex;
+    text-align: center;
+    margin: 1em 0;
+}
+.footer-container div {
+    text-align: left;
+}
+.footer-container img {
+    margin: .5em 2em;
+}
+.footer-container h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 2em;
+    text-align: left;
+    width: 300px;
+}
+.footer-nav li{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    display: block;
+    margin: 4px 0;
+    padding: 0 0;
+    font-weight: 600;
+    text-align: left;
+}
+.footer-nav a {
+    color: black;
+}
+.footer-nav a:hover {
+    text-decoration: underline;
+}
